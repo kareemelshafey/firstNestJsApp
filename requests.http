@@ -1,0 +1,21 @@
+### List all messages
+GET http://localhost:3000/messages
+
+### Create a new message
+Post http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "hiii there"
+}
+
+### Create a new message
+Post http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": 123
+}
+
+### Get a particular message
+GET http://localhost:3000/messages/871
